@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Invaders</title>
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="static/css/style.css">
+  <style>
+  canvas {
+    display: block;
+    margin: 0 auto;
+    background: url('static/images/background-space.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Space Invaders Game</h1>
+  </div>
+  
+  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  
+  <div class="button-container">
+    <button type="button" id="pauseBtn">Pause</button>
+    <button type="button" id="playBtn">Play</button>
+    <button type="button" id="endBtn">End</button>
+  </div>
+  
+  <script src="static/js/game.js"></script>
+</body>
+</html>
